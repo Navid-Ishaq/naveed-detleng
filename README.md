@@ -1,6 +1,6 @@
 # Muhammad Naveed Ishaque — Business Solutions Website
 
-A production-ready static website positioning Muhammad Naveed Ishaque around practical business outcomes across data, cloud, analytics, automation, and applied AI. The site also connects his personal identity naturally with the wider DeTLeng ecosystem.
+A production-ready static website positioning Muhammad Naveed Ishaque as a business solutions professional. The visitor journey moves directly from common business challenges to practical solution areas, a business-first working approach, and one focused contact path.
 
 The implementation uses semantic HTML5, modern CSS, and a small amount of vanilla JavaScript. It has no backend, framework, package installation, or build step.
 
@@ -64,6 +64,6 @@ Keep the `CNAME` file in the published branch; removing it can disconnect the cu
 - Edit content in `index.html`.
 - Update colors, spacing, or responsive behavior in `style.css`.
 - Update interaction behavior in `script.js`.
-- Test keyboard navigation, the mobile menu, internal section links, external DeTLeng links, and the pre-filled email CTA before each deployment.
+- Test keyboard navigation, the mobile menu, internal section links, the DeTLeng reference, and the pre-filled email CTA before each deployment.
 
 © 2026 Muhammad Naveed Ishaque. All rights reserved.
