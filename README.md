@@ -1,69 +1,23 @@
-# Muhammad Naveed Ishaque — Business Solutions Website
+# Muhammad Naveed Ishaque — Business Solutions
 
-A production-ready static website positioning Muhammad Naveed Ishaque as a business solutions professional. The visitor journey moves directly from common business challenges to practical solution areas, a business-first working approach, and one focused contact path.
+A premium, responsive, static business-solutions website designed for non-technical business owners, founders, managers and decision-makers.
 
-The implementation uses semantic HTML5, modern CSS, and a small amount of vanilla JavaScript. It has no backend, framework, package installation, or build step.
+## Files
 
-## File structure
+- `index.html` — semantic page content and structure
+- `style.css` — complete responsive visual system
+- `script.js` — navigation, scroll effects, form validation and email inquiry preparation
+- `CNAME` — GitHub Pages custom-domain configuration
 
-```text
-.
-├── index.html   # Content, structure, SEO, and social metadata
-├── style.css    # Responsive visual system and motion preferences
-├── script.js    # Navigation, scroll state, reveal behavior, and menu controls
-├── CNAME        # GitHub Pages custom domain
-└── README.md    # Project and deployment notes
-```
+## Publish with GitHub Pages
 
-## Local preview
+1. Add these files to the root of a GitHub repository.
+2. In **Settings → Pages**, publish from the repository's default branch and root folder.
+3. In the repository's DNS settings, point `naveed.detleng.com` to GitHub Pages as appropriate.
+4. Ensure the custom domain shown in GitHub Pages is `naveed.detleng.com` and enable HTTPS after DNS is active.
 
-The site can be opened directly by double-clicking `index.html`. For the most representative preview, run a simple local server from the project directory:
+No installation, build command, framework or paid dependency is required.
 
-```bash
-python -m http.server 8000
-```
+## Inquiry form
 
-Then visit `http://localhost:8000/`.
-
-## Deploy with GitHub Pages
-
-1. Create a GitHub repository and add all five files at its root.
-2. Commit and push the files to the repository's default branch.
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the default branch, choose the root (`/`) folder, and save.
-6. GitHub Pages will publish the static website without a build workflow.
-
-All asset references are relative, so the project works both at a custom domain and under a standard GitHub Pages repository URL.
-
-## Custom domain: naveed.detleng.com
-
-The included `CNAME` file contains:
-
-```text
-naveed.detleng.com
-```
-
-In the DNS settings for `detleng.com`, create a CNAME record:
-
-- Host/name: `naveed`
-- Target/value: `<your-github-username>.github.io`
-
-Replace the placeholder target with the GitHub Pages hostname for the account or organization that owns the repository. Do not point the CNAME record to a repository path. DNS changes may take time to propagate.
-
-After DNS is configured:
-
-1. Return to **Settings → Pages** in GitHub.
-2. Confirm `naveed.detleng.com` as the custom domain.
-3. Enable **Enforce HTTPS** once GitHub makes the option available.
-
-Keep the `CNAME` file in the published branch; removing it can disconnect the custom domain on a later deployment.
-
-## Maintenance
-
-- Edit content in `index.html`.
-- Update colors, spacing, or responsive behavior in `style.css`.
-- Update interaction behavior in `script.js`.
-- Test keyboard navigation, the mobile menu, internal section links, the DeTLeng reference, and the pre-filled email CTA before each deployment.
-
-© 2026 Muhammad Naveed Ishaque. All rights reserved.
+The form validates required fields and opens the visitor's email application with a prepared message addressed to `hello@naveed.detleng.com`. Confirm that this mailbox exists before publishing; otherwise replace that address in `script.js`.
