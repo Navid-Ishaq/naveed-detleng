@@ -20,4 +20,4 @@ No installation, build command, framework or paid dependency is required.
 
 ## Inquiry form
 
-The form validates required fields and opens the visitor's email application with a prepared message addressed to `hello@naveed.detleng.com`. Confirm that this mailbox exists before publishing; otherwise replace that address in `script.js`.
+The form validates required fields and opens the visitor's email application with a prepared message addressed to the owner-confirmed mailbox `info@detleng.com`. The visitor reviews and sends the message from their own email application; the static website does not claim server-side delivery.
